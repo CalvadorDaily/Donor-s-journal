@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.timmyyeol.diplom.Moder_main">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_heightPercent="80%"
+        app:layout_marginTopPercent="10%" />
+
+
+    <EditText
+        android:id="@+id/search"
+        app:layout_heightPercent="10%"
+        app:layout_marginLeftPercent="3%"
+        app:layout_marginTopPercent="1%"
+        android:hint="Введите ФИО донора"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/listView"
+        android:text="Добавить"
+        android:onClick="addButton"/>
+
+
+</android.support.percent.PercentRelativeLayout>

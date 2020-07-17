@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    package="com.timmyyeol.diplom">
+    android:versionCode="1"
+    android:versionName="Журнал донора"
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/marl_launch"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/marl_launch"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".User_Profile"
+            android:label="Профиль"
+            />
+        <activity android:name=".Authorization"
+            android:windowSoftInputMode="adjustPan">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".User_history" />
+        <activity android:name=".Moder_main"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".AddActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".ModerUserChange"
+            android:windowSoftInputMode="adjustPan"/>
+
+    </application>
+
+</manifest>

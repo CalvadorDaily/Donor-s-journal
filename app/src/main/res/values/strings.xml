@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Журнал Донора</string>
+    <string name="error_message">Ошибка соединения. Проверьте данные и попробуйте повторить позднее.</string>
+    <string name="forgot_gata">Чтобы восстановить данные, вам нужно взять их в донорском центре, в котором находится ваша медицинская карточка донора.</string>
+    <string name="registration">Чтобы зарегистрироваться, вам нужно взять логин и пароль в донорском центре, в котором находится ваша медицинская карточка донора.</string>
+    <string name="intstructions">Инструкции донору</string>
+    <string name="contacts">Контакты</string>
+    <string name="exit">Выход</string>
+    <string name="exitComp">Выход выполнен</string>
+    <string name="error_exc"> Заполните все поля корректно.</string>
+    <string name="error_excellent">Выполяется обработка данных. Подождите.</string>
+    <string-array name="abolist">
+        <item>Выберите группу крови</item>
+        <item>O+(I)</item>
+        <item>O-(I)</item>
+        <item>A+(II)</item>
+        <item>A-(II)</item>
+        <item>B+(III)</item>
+        <item>B-(III)</item>
+        <item>AB+(IV)</item>
+        <item>AB-(IV)</item>
+    </string-array>
+
+    <string-array name="statuslist">
+        <item>Отсутствует</item>
+        <item>Положительные результаты</item>
+        <item>Отрицательные результаты</item>
+        <item>Ожидание результатов</item>
+    </string-array>
+</resources>
